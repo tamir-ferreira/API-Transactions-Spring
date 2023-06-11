@@ -1,4 +1,4 @@
-package com.example.learningspring.exception;
+package springApplication.exception;
 
 import java.util.HashMap;
 import java.util.List;

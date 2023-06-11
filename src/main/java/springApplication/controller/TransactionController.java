@@ -1,11 +1,11 @@
-package com.example.learningspring.controller;
+package springApplication.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import com.example.learningspring.dto.CreateTransactionDto;
-import com.example.learningspring.model.Transaction;
-import com.example.learningspring.service.TransactionService;
 import jakarta.validation.Valid;
+import springApplication.dto.CreateTransactionDto;
+import springApplication.model.Transaction;
+import springApplication.service.TransactionService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

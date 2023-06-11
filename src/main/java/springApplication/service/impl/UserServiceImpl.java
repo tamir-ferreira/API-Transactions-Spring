@@ -1,17 +1,17 @@
-package com.example.learningspring.service.impl;
+package springApplication.service.impl;
 
 import java.util.List;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import com.example.learningspring.dto.CreateDepositDto;
-import com.example.learningspring.dto.UserDto;
-import com.example.learningspring.exception.AppException;
-import com.example.learningspring.model.User;
-import com.example.learningspring.repository.UserRepository;
-import com.example.learningspring.service.UserService;
+import springApplication.dto.CreateDepositDto;
+import springApplication.dto.UserDto;
+import springApplication.exception.AppException;
+import springApplication.model.User;
+import springApplication.repository.UserRepository;
+import springApplication.service.UserService;
 
-@Service 
-public class UserServiceImpl implements UserService{
+@Service
+public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
 
     public UserServiceImpl(UserRepository userRepository) {

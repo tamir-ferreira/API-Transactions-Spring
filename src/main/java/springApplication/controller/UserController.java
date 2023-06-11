@@ -1,10 +1,10 @@
-package com.example.learningspring.controller;
+package springApplication.controller;
 
-import com.example.learningspring.dto.CreateDepositDto;
-import com.example.learningspring.dto.UserDto;
-import com.example.learningspring.model.User;
-import com.example.learningspring.service.UserService;
 import jakarta.validation.Valid;
+import springApplication.dto.CreateDepositDto;
+import springApplication.dto.UserDto;
+import springApplication.model.User;
+import springApplication.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import java.util.List;

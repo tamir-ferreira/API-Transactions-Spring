@@ -1,15 +1,15 @@
-package com.example.learningspring.service.impl;
+package springApplication.service.impl;
 
 import java.util.Objects;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import com.example.learningspring.dto.CreateTransactionDto;
-import com.example.learningspring.exception.AppException;
-import com.example.learningspring.model.Transaction;
-import com.example.learningspring.model.User;
-import com.example.learningspring.repository.TransactionRepository;
-import com.example.learningspring.repository.UserRepository;
-import com.example.learningspring.service.TransactionService;
+import springApplication.dto.CreateTransactionDto;
+import springApplication.exception.AppException;
+import springApplication.model.Transaction;
+import springApplication.model.User;
+import springApplication.repository.TransactionRepository;
+import springApplication.repository.UserRepository;
+import springApplication.service.TransactionService;
 
 @Service
 public class TransactionServiceImpl implements TransactionService {

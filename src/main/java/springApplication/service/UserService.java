@@ -1,9 +1,9 @@
-package com.example.learningspring.service;
+package springApplication.service;
 
 import java.util.List;
-import com.example.learningspring.dto.CreateDepositDto;
-import com.example.learningspring.dto.UserDto;
-import com.example.learningspring.model.User;
+import springApplication.dto.CreateDepositDto;
+import springApplication.dto.UserDto;
+import springApplication.model.User;
 
 
 public interface UserService {

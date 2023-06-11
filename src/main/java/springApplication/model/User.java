@@ -1,4 +1,4 @@
-package com.example.learningspring.model;
+package springApplication.model;
 
 import org.hibernate.annotations.ColumnDefault;
 import jakarta.persistence.Column;

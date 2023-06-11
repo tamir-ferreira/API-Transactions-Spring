@@ -1,4 +1,4 @@
-package com.example.learningspring.model;
+package springApplication.model;
 
 import java.util.Date;
 import org.hibernate.annotations.CreationTimestamp;
