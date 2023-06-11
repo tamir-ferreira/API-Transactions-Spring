@@ -21,8 +21,8 @@ spring.jpa.properties.hibernate.globally_quoted_identifiers_skip_column_definiti
 # necessário caso queira fazer o seed inicial, pode ser comentado após rodar a primeira vez no postgre
 # spring.sql.init.mode=always 
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/learning_spring
-spring.datasource.username=HomeOffice
-spring.datasource.password=1234
+spring.datasource.url=jdbc:postgresql://localhost:<PORT>/<DATABASE_NAME>
+spring.datasource.username=<DATABASE_USERNAME>
+spring.datasource.password=<DATABASE_PASSWORD>
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
